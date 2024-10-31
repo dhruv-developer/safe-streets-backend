@@ -1,0 +1,45 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Ignore environment variables
+.env
+.venv/
+venv/
+env/
+
+# Ignore virtual environments
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore log files
+*.log
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Ignore database files
+*.sqlite3
+
+# Ignore node_modules (if using frontend in the same project)
+node_modules/
+
+# Ignore migrations (optional, if you're using something like Alembic)
+alembic/versions/*.pyc
+alembic/versions/*.py
